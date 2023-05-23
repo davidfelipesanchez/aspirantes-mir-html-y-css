@@ -1,0 +1,61 @@
+.container { /*El formulario tiene un ancho de 300px , un padding de 20px */
+    width: 300px;
+    margin: 0 auto;     /* centrado con margin: 0 auto*/
+    padding: 20px; 
+    border-radius: 20px;                /*bordes redondeados a 20px*/
+    border: 1px solid #ccc;
+    background: linear-gradient(#bd09b7, #6b4cf5); /*  El fondo es un gradiente lineal del color #bd09b7 al #6b4cf5 . */
+    box-shadow: 10px 5px 5px black; /*El formulario tiene un sombreado que puedes personalizar a tu gusto.*/
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form h2 {
+    text-align: center; 
+    color: white; /* El color de la fuente es blanca (exceptuando el botón).*/
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    color: white; /* El color de la fuente es blanca (exceptuando el botón).*/
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* El color de la fuente es blanca (exceptuando el botón).*/
+  }
+  .input-che [for="remember"]{
+    color: white;
+  }
+
+  .input-group select[type="genero"]{
+    width: 100%;       /*deben ocupar el 100% del ancho del formulario.*/
+    padding: 7px;      /* Los campos de entrada tienen un padding de 7px */
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 5px;
+    color: white;
+  }
+  
+  .button-group {
+    text-align: right; /* Está alineado a la derecha.*/
+    
+  }
+  
+  .button-group input[type="submit"] {
+    background-color: white;
+    color: black; /* El color de la fuente es blanca (exceptuando el botón).*/
+    border: none;
+    padding: 5px 15px;  /*El botón tiene un padding de 5px arriba y abajo, y 15px a los lados.*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

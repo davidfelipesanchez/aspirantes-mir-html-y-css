@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <meta charset="utf-8">
-    <title>Login</title>
-<!-- Aquí referencias otros archivos y escribes metadata --></head>
-  <body>
-  
-<!-- Aquí escribes tu contenido --></body>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <h2>Inicio de sesión</h2>
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="input-group">
+        <label for="genero">Genero:</label>
+        <select type="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+          </select>         
+      </div>
+      <div class="input-che">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Acepto los terminos</label>
+      </div>
+      <div class="button-group">
+        <input type="submit" value="Ingresar">
+      </div>
+    </form>
+  </div>
+</body>
 </html>
